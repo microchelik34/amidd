@@ -558,17 +558,45 @@ video {
   position: absolute;
 }
 
+.top-\[207px\] {
+  top: 207px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
+.mb-\[170px\] {
+  margin-bottom: 170px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
 }
 
 .mb-\[70px\] {
   margin-bottom: 70px;
 }
 
+.ml-\[121px\] {
+  margin-left: 121px;
+}
+
 .ml-\[53px\] {
   margin-left: 53px;
+}
+
+.ml-\[692px\] {
+  margin-left: 692px;
 }
 
 .mt-20 {
@@ -577,6 +605,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-\[491px\] {
+  margin-top: 491px;
 }
 
 .mt-\[70px\] {
@@ -595,8 +627,12 @@ video {
   flex-grow: 1;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .items-center {
@@ -615,16 +651,20 @@ video {
   gap: 12rem;
 }
 
+.gap-\[16px\] {
+  gap: 16px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
 .gap-\[55px\] {
   gap: 55px;
 }
 
-.rounded-\[30px\] {
-  border-radius: 30px;
-}
-
-.rounded-\[4px\] {
-  border-radius: 4px;
+.rounded-\[31px\] {
+  border-radius: 31px;
 }
 
 .rounded-full {
@@ -645,9 +685,9 @@ video {
   background-color: rgb(18 79 72 / var(--tw-bg-opacity));
 }
 
-.bg-HeroColor {
+.bg-\[\#ff823b\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(233 251 249 / var(--tw-bg-opacity));
+  background-color: rgb(255 130 59 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -719,6 +759,11 @@ video {
   color: rgb(255 97 7 / var(--tw-text-opacity));
 }
 
+.text-OrangeSecondColor {
+  --tw-text-opacity: 1;
+  color: rgb(255 130 59 / var(--tw-text-opacity));
+}
+
 .text-standardColor {
   --tw-text-opacity: 1;
   color: rgb(11 4 27 / var(--tw-text-opacity));
@@ -737,6 +782,21 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.shadow-3xl {
+  --tw-shadow: 0 3px 84px 0 rgba(142, 199, 192, 0.3);
+  --tw-shadow-colored: 0 3px 84px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.drop-shadow-xl {
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .actions {
@@ -761,4 +821,22 @@ video {
 
 .TextHero {
   max-width: 428px;
+}
+
+.GirlBack {
+  height: 724px;
+  width: 1319px;
+}
+
+.StartButton {
+  height: 57px;
+  width: 180px;
+}
+
+.GridMarketing {
+  max-width: 1110px;
+}
+
+.ServicesPanel {
+  max-width: 1111px;
 }

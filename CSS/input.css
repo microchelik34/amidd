@@ -21,3 +21,19 @@
 .TextHero {
     @apply max-w-[428px]
 }
+
+.GirlBack {
+    @apply w-[1319px] h-[724px]
+}
+
+.StartButton {
+    @apply w-[180px] h-[57px]
+}
+
+.GridMarketing {
+    @apply max-w-[1110px]
+}
+
+.ServicesPanel {
+    @apply max-w-[1111px]
+}
