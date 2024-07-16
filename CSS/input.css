@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.actions {
+    @apply w-[127px] h-[57px]
+}
+
+.HeroClass {
+    @apply w-[1319px] h-[724px]
+}
+
+.TextGrid {
+    @apply max-w-[570px] h-[546px]
+}
+
+.WorkButton {
+    @apply w-[117px] h-[38px]
+}
+
+.TextHero {
+    @apply max-w-[428px]
+}
