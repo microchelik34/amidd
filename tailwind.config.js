@@ -28,7 +28,14 @@ module.exports = {
       letterSpacing: {
         wide: '.05em',
         widest: '.1em',
-      }
+      },
+      dropShadow: {
+        '3xl': '0 0 24px 24px #d6e2e1',
+      },
+
+      boxShadow: {
+        '3xl' : '0 3px 84px 0 rgba(142, 199, 192, 0.3)',
+      },
     },
   },
   plugins: [],
