@@ -571,12 +571,28 @@ video {
   margin-bottom: 100px;
 }
 
+.mb-\[140px\] {
+  margin-bottom: 140px;
+}
+
 .mb-\[170px\] {
   margin-bottom: 170px;
 }
 
+.mb-\[23px\] {
+  margin-bottom: 23px;
+}
+
 .mb-\[30px\] {
   margin-bottom: 30px;
+}
+
+.mb-\[37px\] {
+  margin-bottom: 37px;
+}
+
+.mb-\[48px\] {
+  margin-bottom: 48px;
 }
 
 .mb-\[50px\] {
@@ -587,8 +603,20 @@ video {
   margin-bottom: 70px;
 }
 
+.mb-\[8px\] {
+  margin-bottom: 8px;
+}
+
 .ml-\[121px\] {
   margin-left: 121px;
+}
+
+.ml-\[22px\] {
+  margin-left: 22px;
+}
+
+.ml-\[24px\] {
+  margin-left: 24px;
 }
 
 .ml-\[53px\] {
@@ -627,12 +655,12 @@ video {
   flex-grow: 1;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .items-center {
@@ -643,6 +671,22 @@ video {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
+}
+
 .gap-16 {
   gap: 4rem;
 }
@@ -651,8 +695,20 @@ video {
   gap: 12rem;
 }
 
+.gap-\[111px\] {
+  gap: 111px;
+}
+
+.gap-\[14px\] {
+  gap: 14px;
+}
+
 .gap-\[16px\] {
   gap: 16px;
+}
+
+.gap-\[22\.5px\] {
+  gap: 22.5px;
 }
 
 .gap-\[30px\] {
@@ -685,6 +741,11 @@ video {
   background-color: rgb(18 79 72 / var(--tw-bg-opacity));
 }
 
+.bg-OrangeSecondColor {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 130 59 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#ff823b\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 130 59 / var(--tw-bg-opacity));
@@ -699,6 +760,10 @@ video {
   background-attachment: local;
 }
 
+.font-OpenSans {
+  font-family: Open Sans, sans-serif;
+}
+
 .font-Poppins {
   font-family: Poppins, sans-serif;
 }
@@ -707,19 +772,29 @@ video {
   font-family: Roboto, sans-serif;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-2xl {
+  font-size: 24px;
+  line-height: 32px;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-4xl {
+  font-size: 36px;
+  line-height: 32px;
+}
+
+.text-5xl {
+  font-size: 44px;
+  line-height: 32px;
 }
 
 .text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .font-bold {
@@ -742,16 +817,45 @@ video {
   line-height: 125%;
 }
 
+.leading-\[144\%\] {
+  line-height: 144%;
+}
+
 .leading-\[167\%\] {
   line-height: 167%;
+}
+
+.leading-\[182\%\] {
+  line-height: 182%;
+}
+
+.leading-\[186\%\] {
+  line-height: 186%;
 }
 
 .leading-\[187\%\] {
   line-height: 187%;
 }
 
+.leading-\[200\%\] {
+  line-height: 200%;
+}
+
+.leading-\[222\%\] {
+  line-height: 222%;
+}
+
 .tracking-wide {
   letter-spacing: .05em;
+}
+
+.tracking-widest {
+  letter-spacing: .1em;
+}
+
+.text-DarkGreenColor {
+  --tw-text-opacity: 1;
+  color: rgb(18 79 72 / var(--tw-text-opacity));
 }
 
 .text-OrangeColor {
@@ -777,6 +881,10 @@ video {
 .text-standardLightColor {
   --tw-text-opacity: 1;
   color: rgb(70 70 70 / var(--tw-text-opacity));
+}
+
+.text-standardLighterColor {
+  color: rgba(18, 79, 72, 0.37);
 }
 
 .text-white {
@@ -839,4 +947,58 @@ video {
 
 .ServicesPanel {
   max-width: 1111px;
+}
+
+.TextServiceOne {
+  max-width: 534px;
+}
+
+.TextServiceTwo {
+  width: 428px;
+}
+
+.GridServiceTwo {
+  height: 418px;
+  max-width: 380px;
+}
+
+.GridServiceOne {
+  height: 418px;
+  max-width: 305px;
+}
+
+.LearnButton {
+  height: 57px;
+  width: 203px;
+}
+
+.LearnButton:hover span {
+  color: #ffffff;
+}
+
+.LearnButton:hover svg path {
+  stroke: #ffffff;
+}
+
+.AchievementsPanel {
+  max-width: 1115px;
+}
+
+.AchievementCarts {
+  max-width: 540px;
+}
+
+.hover\:bg-OrangeSecondColor:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 130 59 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:drop-shadow-lg:hover {
+  --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }

@@ -37,3 +37,39 @@
 .ServicesPanel {
     @apply max-w-[1111px]
 }
+
+.TextServiceOne {
+    @apply max-w-[534px]
+}
+
+.TextServiceTwo {
+    @apply w-[428px]
+}
+
+.GridServiceTwo {
+    @apply max-w-[380px] h-[418px]
+}
+
+.GridServiceOne {
+    @apply max-w-[305px] h-[418px]
+}
+
+.LearnButton {
+    @apply w-[203px] h-[57px]
+}
+
+.LearnButton:hover span {
+    color: #ffffff;
+}
+
+.LearnButton:hover svg path {
+    stroke: #ffffff;
+}
+
+.AchievementsPanel {
+    @apply max-w-[1115px]
+}
+
+.AchievementCarts {
+    @apply max-w-[540px]
+}
