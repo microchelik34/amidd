@@ -558,8 +558,56 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .top-\[207px\] {
   top: 207px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-\[288px\] {
+  left: 288px;
+}
+
+.left-\[28px\] {
+  left: 28px;
+}
+
+.left-\[4px\] {
+  left: 4px;
+}
+
+.left-\[824px\] {
+  left: 824px;
+}
+
+.left-\[876px\] {
+  left: 876px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-\[10px\] {
+  top: 10px;
+}
+
+.top-\[151px\] {
+  top: 151px;
+}
+
+.top-\[211px\] {
+  top: 211px;
+}
+
+.top-\[63px\] {
+  top: 63px;
 }
 
 .mx-auto {
@@ -619,12 +667,36 @@ video {
   margin-left: 24px;
 }
 
+.ml-\[37px\] {
+  margin-left: 37px;
+}
+
+.ml-\[38px\] {
+  margin-left: 38px;
+}
+
+.ml-\[46px\] {
+  margin-left: 46px;
+}
+
 .ml-\[53px\] {
   margin-left: 53px;
 }
 
+.ml-\[57px\] {
+  margin-left: 57px;
+}
+
+.ml-\[60px\] {
+  margin-left: 60px;
+}
+
 .ml-\[692px\] {
   margin-left: 692px;
+}
+
+.mr-\[54px\] {
+  margin-right: 54px;
 }
 
 .mt-20 {
@@ -639,6 +711,10 @@ video {
   margin-top: 491px;
 }
 
+.mt-\[60px\] {
+  margin-top: 60px;
+}
+
 .mt-\[70px\] {
   margin-top: 70px;
 }
@@ -651,6 +727,50 @@ video {
   display: grid;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-3\.5 {
+  height: 0.875rem;
+}
+
+.h-\[225px\] {
+  height: 225px;
+}
+
+.h-\[38px\] {
+  height: 38px;
+}
+
+.h-\[63px\] {
+  height: 63px;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-3\.5 {
+  width: 0.875rem;
+}
+
+.w-\[662px\] {
+  width: 662px;
+}
+
+.w-\[669px\] {
+  width: 669px;
+}
+
+.w-\[890px\] {
+  width: 890px;
+}
+
+.w-\[94px\] {
+  width: 94px;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -659,8 +779,8 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .items-center {
@@ -675,16 +795,8 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-stretch {
-  justify-content: stretch;
+.justify-items-start {
+  justify-items: start;
 }
 
 .gap-16 {
@@ -727,13 +839,26 @@ video {
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border-\[1px\] {
+  border-width: 1px;
+}
+
+.border {
   border-width: 1px;
 }
 
 .border-BorderColor {
   --tw-border-opacity: 1;
   border-color: rgb(242 250 249 / var(--tw-border-opacity));
+}
+
+.border-teal-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 253 250 / var(--tw-border-opacity));
 }
 
 .bg-DarkGreenColor {
@@ -760,6 +885,10 @@ video {
   background-attachment: local;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-OpenSans {
   font-family: Open Sans, sans-serif;
 }
@@ -770,6 +899,14 @@ video {
 
 .font-Roboto {
   font-family: Roboto, sans-serif;
+}
+
+.font-\[\'Poppins\'\] {
+  font-family: 'Poppins';
+}
+
+.font-\[\'Roboto\'\] {
+  font-family: 'Roboto';
 }
 
 .text-2xl {
@@ -795,6 +932,10 @@ video {
 .text-sm {
   font-size: 14px;
   line-height: 20px;
+}
+
+.text-\[44px\] {
+  font-size: 44px;
 }
 
 .font-bold {
@@ -845,12 +986,24 @@ video {
   line-height: 222%;
 }
 
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[80px\] {
+  line-height: 80px;
+}
+
 .tracking-wide {
   letter-spacing: .05em;
 }
 
 .tracking-widest {
   letter-spacing: .1em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
 }
 
 .text-DarkGreenColor {
@@ -890,6 +1043,25 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-emerald-950 {
+  --tw-text-opacity: 1;
+  color: rgb(2 44 34 / var(--tw-text-opacity));
+}
+
+.text-orange-600 {
+  --tw-text-opacity: 1;
+  color: rgb(234 88 12 / var(--tw-text-opacity));
+}
+
+.text-zinc-700 {
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .shadow-3xl {
@@ -984,8 +1156,31 @@ video {
   max-width: 1115px;
 }
 
-.AchievementCarts {
+.AchievementCartFirst {
+  height: 908px;
+  max-width: 513px;
+}
+
+.AchievementCartSecond {
+  height: 806px;
+  max-width: 511px;
+}
+
+.AchievementButton {
+  height: 57px;
+  width: 244px;
+}
+
+.WeWorked {
   max-width: 540px;
+}
+
+.TextAchiv {
+  max-width: 146px;
+}
+
+.WebAchiv {
+  max-width: 432px;
 }
 
 .hover\:bg-OrangeSecondColor:hover {

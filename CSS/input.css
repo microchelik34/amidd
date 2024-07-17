@@ -70,6 +70,26 @@
     @apply max-w-[1115px]
 }
 
-.AchievementCarts {
+.AchievementCartFirst {
+    @apply max-w-[513px] h-[908px]
+}
+
+.AchievementCartSecond {
+    @apply max-w-[511px] h-[806px]
+}
+
+.AchievementButton {
+    @apply w-[244px] h-[57px]
+}
+
+.WeWorked {
     @apply max-w-[540px]
+}
+
+.TextAchiv {
+    @apply max-w-[146px]
+}
+
+.WebAchiv {
+    @apply max-w-[432px]
 }
