@@ -166,7 +166,7 @@
                         <img src="Images/JobHub.svg" alt="">
                         <p class="font-Roboto font-bold text-2xl text-standardColor">JobHub Job Finding Website </p>
                         <p class="font-Roboto font-normal text-lg leading-[200%] text-standardLightColor">This website has become one of the best ux interface  for users with an beautiful ui and also lucrative fot upcoming startups in the sectors</p>
-                        <button class="AchievementButton flex justify-center items-center bg-OrangeSecondColor rounded-[31px]">
+                        <button class="AchievementButton flex justify-center items-center bg-OrangeSecondColor rounded-[31px] gap-[12px]">
                             <span class="text-white">View More Work</span>
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1 8.5H15" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -213,15 +213,21 @@
     </section>
 
 <!--Blog-->
-    <section>
-        <div class="w-[890px] h-[225px] relative mx-auto">
-            <div class="w-[662px] left-[4px] top-[151px] absolute text-center text-zinc-700 text-lg font-normal font-['Roboto'] leading-[30px]">We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan </div>
-            <div class="w-[669px] h-[63px] left-0 top-[63px] absolute text-center text-emerald-950 text-[44px] font-bold font-['Poppins'] leading-[80px]">We Publish Blogs Every Week</div>
-            <div class="w-[94px] h-[38px] left-[288px] top-0 absolute">
-                <div class="w-[94px] h-[38px] left-0 top-0 absolute bg-white rounded border border-teal-50"></div>
-                <div class="left-[28px] top-[10px] absolute text-orange-600 text-base font-medium font-['Roboto'] tracking-wider">blog</div>
+    <section class="mb-[97px]">
+        <div class="BlogPanel relative mx-auto mb-[102px]">
+            <div class="BlogPanelForGrid grid justify-center mx-auto text-center gap-[25px] mb-[14px]">
+                <div class="BlogClass flex items-center justify-center border border-BorderColor mx-auto">
+                    <span class="font-Roboto font-medium text-base tracking-widest text-OrangeColor">blog</span>
+                </div>
+                <div>
+                    <span class="font-Poppins font-bold text-5xl leading-[182%] text-standardColor">We Publish Blogs Every Week</span>
+                </div>
+                <div class="mb-3">
+                    <span class="font-Roboto font-normal text-lg leading-[167%] text-standardLightColor">We understand how desperatly you want to grow in the business world & our motto is to help you with practicale idea and plan </span>
+                </div>
             </div>
-            <div class="w-3.5 h-3.5 left-[876px] top-[211px] absolute">
+
+            <div class="absolute flex gap-[38px] bottom-0 right-0">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.5">
                         <path d="M15 8H1" stroke="#124F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -229,16 +235,87 @@
                     </g>
                 </svg>
 
-
-            </div>
-            <div class="opacity-50 w-3.5 h-3.5 left-[824px] top-[211px] absolute">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 8H15" stroke="#124F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M8 1L15 8L8 15" stroke="#124F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-
-
             </div>
+        </div>
+
+        <div class="BlogGrid flex gap-[24px] mx-auto">
+
+            <div class="BlogBGFirst relative grid justify-items-center bg-local hover:drop-shadow-lg" style="background-image: url(Images/BlogBGFirst.svg)">
+                <div class="BlogDate absolute top-0 right-0 flex items-center justify-center drop-shadow-lg" style="background-image: url(Images/Date.svg)">
+                    <span class="font-Roboto font-bold text-2xl leading-[125%] text-white">22 <br>Dec</span>
+
+                </div>
+                <img class="mt-[30px]" src="Images/BlogCartFirst.svg" alt="">
+                <p class="font-Roboto font-bold text-2xl leading-[125%] text-black">Upgrowing Economy Needs More Startups</p>
+                <p class="font-Roboto font-normal text-lg leading-[167%] text-standardLightColor">We understand how desperatly you want to grow in the <br> business world & our motto is to help you with practicale <br> idea and plan </p>
+                <button class="LearnButton justify-self-start ml-[30px] flex justify-center items-center gap-[14px] bg-white rounded-[31px] hover:bg-OrangeSecondColor hover:text-white">
+                    <span>Learn More</span>
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 8.5H15" stroke="#124F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 1.5L15 8.5L8 15.5" stroke="#124F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+                </button>
+            </div>
+
+            <div class="BlogBGSecond relative grid justify-items-center bg-local hover:drop-shadow-lg" style="background-image: url(Images/BlogBGSecond.svg)">
+                <div class="BlogDate absolute top-0 right-0 flex items-center justify-center drop-shadow-lg" style="background-image: url(Images/Date.svg)">
+                    <span class="font-Roboto font-bold text-2xl leading-[125%] text-white">16 <br> Dec</span>
+                </div>
+                <img class="mt-[30px]" src="Images/BlogCartSecond.svg" alt="">
+                <p class="font-Roboto font-bold text-2xl leading-[125%] text-black">Team Has Some Unique Feature - What Yours?</p>
+                <p class="font-Roboto font-normal text-lg leading-[167%] text-standardLightColor">We understand how desperatly you want to grow in the <br> business world & our motto is to help you with practicale idea <br> and plan </p>
+                <button class="LearnButton justify-self-start ml-[30px] flex justify-center items-center gap-[14px] bg-white rounded-[31px] hover:bg-OrangeSecondColor hover:text-white">
+                    <span>Learn More</span>
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 8.5H15" stroke="#124F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M8 1.5L15 8.5L8 15.5" stroke="#124F48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+<!--FAQ-->
+    <section >
+        <div class="bg-HeroColor mx-auto">
+            <div class="grid justify-center items-center text-center mb-[70px]">
+                <div class="mt-[70px] mb-[45px]">
+                    <span class="font-Poppins font-bold text-5xl text-black ">Subscribe To Our Newsletter <br> Get The Best Offers</span>
+                </div>
+                <div class="flex justify-center items-center gap-[27px]">
+                    <div class="font-Poppins font-normal text-lg text-OrangeSecondColor">With One Click</div>
+                    <button class="LearnButton justify-self-start ml-[30px] flex justify-center items-center gap-[26px] rounded-[31px] bg-OrangeSecondColor">
+                        <span class="font-Roboto font-bold text-lg tracking-wide text-white">Subscribe</span>
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 8.5H15" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 1.5L15 8.5L8 15.5" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="FAQPanel mx-auto flex justify-between items-center mb-[70px]">
+                <img src="Images/LogoFooter.svg" alt="">
+                <div class="flex justify-center items-center gap-[70px]">
+                    <a href="#" class="font-Roboto font-normal text-lg text-DarkGreenColor">About</a>
+                    <a href="#" class="font-Roboto font-bold text-lg text-OrangeSecondColor">Terms</a>
+                    <a href="#" class="font-Roboto font-normal text-lg text-DarkGreenColor">Blogs</a>
+                    <a href="#" class="font-Roboto font-normal text-lg text-DarkGreenColor">Contact</a>
+                </div>
+                <div class="grid justify-center items-center">
+                    <span class="font-Roboto font-normal text-lg leading-[200%] text-DarkGreenColor">+998 1276 234</span>
+                    <span class="font-Roboto font-normal text-lg leading-[200%] text-DarkGreenColor">82/93 Boeind Street. NY</span>
+                    <span class="font-Roboto font-normal text-lg leading-[200%] text-DarkGreenColor">info@amid.mail.com</span>
+                </div>
+            </div>
+
+            <div class="FooterBar bg-local bg-DarkGreenColor"></div>
+
         </div>
     </section>
 </body>

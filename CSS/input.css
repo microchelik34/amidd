@@ -93,3 +93,39 @@
 .WebAchiv {
     @apply max-w-[432px]
 }
+
+.BlogPanel {
+    @apply w-[1111px]
+}
+
+.BlogPanelForGrid {
+    @apply max-w-[669px]
+}
+
+.BlogGrid {
+    @apply max-w-[1107px]
+}
+
+.BlogClass {
+    @apply w-[94px] h-[38px]
+}
+
+.BlogBGFirst {
+    @apply w-[520px] h-[660]
+}
+
+.BlogBGSecond {
+    @apply w-[563px] h-[660px]
+}
+
+.BlogDate {
+    @apply w-[75px] h-[75px]
+}
+
+.FAQPanel {
+    @apply max-w-[1110px]
+}
+
+.FooterBar {
+    @apply h-[20px]
+}
