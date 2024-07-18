@@ -3,7 +3,8 @@ module.exports = {
   content: ['./index.html'],
   theme: {
     fontSize: {
-      '5xl' : ['44px', '32px'],
+      '6xl' : ['64px', 1],
+      '5xl' : ['44px', 1],
       '4xl' : ['36px', '40px'],
       '2xl' : ['24px', '32px'],
       lg: ['18px', '28px'],

@@ -691,6 +691,18 @@ video {
   margin-right: 54px;
 }
 
+.mr-\[75px\] {
+  margin-right: 75px;
+}
+
+.mr-\[80px\] {
+  margin-right: 80px;
+}
+
+.mr-\[86px\] {
+  margin-right: 86px;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -897,7 +909,12 @@ video {
 
 .text-5xl {
   font-size: 44px;
-  line-height: 32px;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 64px;
+  line-height: 1;
 }
 
 .text-lg {
@@ -1050,15 +1067,6 @@ video {
   width: 117px;
 }
 
-.TextHero {
-  max-width: 428px;
-}
-
-.GirlBack {
-  height: 724px;
-  width: 1319px;
-}
-
 .StartButton {
   height: 57px;
   width: 180px;
@@ -1070,14 +1078,6 @@ video {
 
 .ServicesPanel {
   max-width: 1111px;
-}
-
-.TextServiceOne {
-  max-width: 534px;
-}
-
-.TextServiceTwo {
-  width: 428px;
 }
 
 .GridServiceTwo {
@@ -1122,16 +1122,8 @@ video {
   width: 244px;
 }
 
-.WeWorked {
-  max-width: 540px;
-}
-
 .TextAchiv {
-  max-width: 146px;
-}
-
-.WebAchiv {
-  max-width: 432px;
+  width: 146px;
 }
 
 .BlogPanel {

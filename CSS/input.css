@@ -6,7 +6,7 @@
     @apply w-[127px] h-[57px]
 }
 
-.HeroClass {
+.HeroClass{
     @apply w-[1319px] h-[724px]
 }
 
@@ -16,14 +16,6 @@
 
 .WorkButton {
     @apply w-[117px] h-[38px]
-}
-
-.TextHero {
-    @apply max-w-[428px]
-}
-
-.GirlBack {
-    @apply w-[1319px] h-[724px]
 }
 
 .StartButton {
@@ -36,14 +28,6 @@
 
 .ServicesPanel {
     @apply max-w-[1111px]
-}
-
-.TextServiceOne {
-    @apply max-w-[534px]
-}
-
-.TextServiceTwo {
-    @apply w-[428px]
 }
 
 .GridServiceTwo {
@@ -82,16 +66,8 @@
     @apply w-[244px] h-[57px]
 }
 
-.WeWorked {
-    @apply max-w-[540px]
-}
-
 .TextAchiv {
-    @apply max-w-[146px]
-}
-
-.WebAchiv {
-    @apply max-w-[432px]
+    @apply w-[146px]
 }
 
 .BlogPanel {
