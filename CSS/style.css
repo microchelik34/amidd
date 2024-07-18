@@ -691,18 +691,6 @@ video {
   margin-right: 54px;
 }
 
-.mr-\[75px\] {
-  margin-right: 75px;
-}
-
-.mr-\[80px\] {
-  margin-right: 80px;
-}
-
-.mr-\[86px\] {
-  margin-right: 86px;
-}
-
 .mt-20 {
   margin-top: 5rem;
 }
@@ -914,7 +902,7 @@ video {
 
 .text-6xl {
   font-size: 64px;
-  line-height: 1;
+  line-height: 40px;
 }
 
 .text-lg {
