@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .actions {
-    @apply w-[127px] h-[57px]
+    @apply min-w-[127px] h-[57px]
 }
 
 .HeroClass{
-    @apply w-[1319px] h-[724px]
+    @apply max-w-[1319px]
 }
 
 .TextGrid {

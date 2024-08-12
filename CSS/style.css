@@ -1037,12 +1037,11 @@ video {
 
 .actions {
   height: 57px;
-  width: 127px;
+  min-width: 127px;
 }
 
 .HeroClass {
-  height: 724px;
-  width: 1319px;
+  max-width: 1319px;
 }
 
 .TextGrid {
@@ -1167,4 +1166,26 @@ video {
 .hover\:drop-shadow-lg:hover {
   --tw-drop-shadow: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media (max-width: 1089.99px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
+  }
+
+  .lg\:right-1 {
+    right: 0.25rem;
+  }
+
+  .lg\:right-10 {
+    right: 2.5rem;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
 }
